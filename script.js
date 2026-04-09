@@ -40,9 +40,22 @@ btn.addEventListener("click", function () {
   text.textContent = "Button clicked!";
 });
 
+// challenge 4:
+
 const boxBtn = document.querySelector(".toggle");
 const box = document.querySelector(".box");
 
 boxBtn.addEventListener("click", function () {
   box.classList.toggle("hidden");
+});
+
+// challenge 5:
+let count = 0;
+const gameBtn = document.querySelector(".game");
+gameBtn.addEventListener("click", function () {
+  if (count < 10) {
+    count += 1;
+  } else {
+    document.querySelector("body").style.backgroundColor = "green";
+  }
 });

@@ -20,3 +20,7 @@ body {
 .hidden {
   display: none;
 }
+
+.game {
+  border-radius: 35%;
+}
