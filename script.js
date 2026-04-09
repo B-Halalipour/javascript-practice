@@ -12,3 +12,21 @@ const filterNumbersArr = function (arr) {
 };
 
 console.log(filterNumbersArr(values));
+
+// challenge 2:
+
+const users = [
+  { name: "Behnoud", active: true },
+  { name: "Maya", active: false },
+  { name: "Devin", active: true },
+];
+
+const getActiveUsers = function (users) {
+  const activeUsers = [];
+  for (let i = 0; i < users.length; i++) {
+    if (users[i].active) activeUsers.push(users[i]);
+  }
+  return activeUsers;
+};
+
+console.log(getActiveUsers(users));
