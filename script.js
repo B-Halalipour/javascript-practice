@@ -39,3 +39,10 @@ const text = document.querySelector(".text");
 btn.addEventListener("click", function () {
   text.textContent = "Button clicked!";
 });
+
+const boxBtn = document.querySelector(".toggle");
+const box = document.querySelector(".box");
+
+boxBtn.addEventListener("click", function () {
+  box.classList.toggle("hidden");
+});
