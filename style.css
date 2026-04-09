@@ -1,3 +1,10 @@
 body {
   background-color: #444;
 }
+
+.btn {
+  border-radius: 5%;
+}
+.text {
+  color: black;
+}

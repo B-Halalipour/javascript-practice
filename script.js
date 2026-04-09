@@ -30,3 +30,12 @@ const getActiveUsers = function (users) {
 };
 
 console.log(getActiveUsers(users));
+
+// challenge 3:
+
+const btn = document.querySelector(".btn");
+const text = document.querySelector(".text");
+
+btn.addEventListener("click", function () {
+  text.textContent = "Button clicked!";
+});
