@@ -4,7 +4,7 @@
 const values = [0, 12, "hello", "", 25, null, 100];
 const filterNumbersArr = function (arr) {
   const numbers = [];
-  for (let i = 0; i < values.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     if (typeof values[i] !== "number") continue;
     numbers.push(values[i]);
   }
